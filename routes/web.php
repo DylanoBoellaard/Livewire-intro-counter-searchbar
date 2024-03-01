@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Livewire\Counter;
+use App\Livewire\SearchUsers;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::get('/counter', Counter::class);
+Route::get('/search-users', SearchUsers::class);
